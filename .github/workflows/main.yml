@@ -17,6 +17,7 @@ jobs:
         uses: cypress-io/github-action@v5.0.0
         with:
           runTests: false
+      - run: npx @replayio/replay update-browsers
 
   unit-test:
     needs: [install-dependencies]
