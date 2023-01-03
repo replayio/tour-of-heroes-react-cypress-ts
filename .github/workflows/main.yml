@@ -1,4 +1,6 @@
 name: unit-lint-typecheck-e2e-ct #
+env:
+  RECORD_REPLAY_CHROMIUM_DOWNLOAD_FILE: linux-chromium-20221231-e9016f403e43-088e58bdeb5c.tar.xz
 on:
   push:
   workflow_dispatch:
